@@ -31,3 +31,10 @@ linux-healthcheck/
 - Add email or Slack alerts for threshold breaches
 - Containerise the application with Docker
 - Upload reports to cloud storage (e.g. AWS S3)
+
+## Scheduling with cron
+This project is designed to run automatically using cron.
+
+Example: run every weekday at 9am
+```bash
+crontab -e
