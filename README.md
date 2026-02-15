@@ -16,6 +16,16 @@ A lightweight Linux automation project that generates system health reports and 
 
 ## Project Structure
 
+linux-healthcheck/
+├── src/
+│ └── healthcheck.py
+├── scripts/
+│ └── run.sh
+├── reports/
+│ └── .gitkeep
+├── README.md
+├── .gitignore
+
 ## Future Improvements
 - Schedule the script using cron
 - Add email or Slack alerts for threshold breaches
