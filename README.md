@@ -16,3 +16,8 @@ A lightweight Linux automation project that generates system health reports and 
 
 ## Project Structure
 
+## Future Improvements
+- Schedule the script using cron
+- Add email or Slack alerts for threshold breaches
+- Containerise the application with Docker
+- Upload reports to cloud storage (e.g. AWS S3)
